@@ -1,0 +1,6 @@
+name|link
+businesses|https://data.cityofchicago.org/resource/xqx5-8hwx.csv
+crimes|https://data.cityofchicago.org/resource/6zsd-86xi.csv
+inspections|https://data.cityofchicago.org/resource/cwig-ma7x.csv
+garbage|https://data.cityofchicago.org/resource/a9br-8sqt.csv
+sanitation|https://data.cityofchicago.org/resource/kcdz-f29q.csv

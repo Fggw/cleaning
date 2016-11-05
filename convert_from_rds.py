@@ -25,7 +25,7 @@ for f in FILES:
         obj = r.r['readRDS'](BASE + f)
         pyobj = pandas2ri.ri2py(obj)
 
-        outname = "../data/{}.csv".format(name)
+        outname = "../chidata/{}.csv".format(name)
 
         if not os.path.isfile(outname):
             print "Writing", outname
