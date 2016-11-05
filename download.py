@@ -17,11 +17,11 @@ def download_file(row):
     print "Downloading {}".format(name)
 
     local_filename = "../data/{}.csv".format(name)
-    df = pd.read_csv(url + '?$limit=300000')
+    df = pd.read_csv(url + '?$limit=800000')
     df.to_csv(local_filename)
     print "Finished {}".format(name)
 
-    return True
+    return 
 
 
 def read_and_download():
